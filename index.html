@@ -37,48 +37,6 @@
     }
 
     .buttons {
-      position: relative;
-      height: 60px;
-    }
-
-    button {
-      border: none;
-      padding: 12px 24px;
-      border-radius: 30px;
-      font-size: 16px;
-      cursor: pointer;
-      transition: all 0.2s ease;
-      position: absolute;
-    }
-
-    #yes {
-      background: #ff4d6d;
-      color: white;
-      left: 40px;
-    }
-
-    #yes:hover {
-      transform: scale(1.1);
-    }
-
-    #no {
-      background: #eee;
-      color: #333;
-      right: 40px;
-    }
-
-    .heart {
-      position: absolute;
-      color: #ff4d6d;
-      font-size: 24px;
-      animation: floatUp 3s linear forwards;
-    }
-
-    @keyframes floatUp {
-      0% { opacity: 1; transform: translateY(0) scale(1); }
-      100% { opacity: 0; transform: translateY(-120px) scale(1.6); }
-    }
-  </style>
 </head>
 <body>
   <div class="card" id="card">
@@ -86,8 +44,8 @@
     <p>Will you be my Valentine? 💌</p>
 
     <div class="buttons">
-      <button id="yes">Yes 💘</button>
-      <button id="no">No 🙈</button>
+      <button id="yes">❤️ Yes</button>
+      <button id="no">❌ No</button>
     </div>
   </div>
 
